@@ -15,3 +15,17 @@
 	退出：
 		exit 或 ctrl+c
 
+### 查看数据库
+	1.查看所有的数据库：	
+	show databases;
+	2.进入到指定的数据库：
+	use sys;
+	查看此数据库下的表格：	show tables;
+	查看其它数据库有那些表：show tables from mysql;
+	查看所在的数据库名：	select database();
+	
+	查看数据库版本：
+		方法1：select version();
+		方法2：exit退出sql数据库，进入到dos命令窗口，执行 mysql --version 或 mysql -V
+	
+
